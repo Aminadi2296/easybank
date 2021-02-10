@@ -1,17 +1,17 @@
 @font-face{
-    font-family:[Public Sans];
+    font-family:"Public Sans";
     src: url(https://fonts.google.com/specimen/Public+Sans);
     font-weight: 700;
     font-style: normal;
 }
 @font-face{
-    font-family:[Public Sans];
+    font-family:"Public Sans";
     src: url(https://fonts.google.com/specimen/Public+Sans);
     font-weight: 400;
     font-style: normal;
 }
 @font-face{
-    font-family:[Public Sans];
+    font-family:"Public Sans";
     src: url(https://fonts.google.com/specimen/Public+Sans);
     font-weight: 300;
     font-style: normal;
@@ -32,11 +32,14 @@
 body{
     margin: 0%;
     padding: 0%;
-    font-family:[Public Sans];
+    font-family:"Public Sans";
 }
+
+/*NAVBAR*/
 nav{
     width: 100%;
-
+    background-color: firebrick;
+    height: 4em;
 }
 .wrapper-nav{
     padding: 0 8vw;
@@ -50,9 +53,9 @@ nav{
     padding: 0;
     margin: 0;
 }
-.navbar-menu {
+
    
-}
+
 .navbar-menu li{
     display: inline; 
     text-decoration: none;
@@ -69,6 +72,7 @@ nav{
 .navbar-menu li:hover{
     border-bottom: 3px solid red;
     cursor: pointer;  
+    
 }
 .navbar-menu li a:hover{
     color: black;
@@ -88,16 +92,8 @@ nav{
 /*FIRST SECTION*/
 .next-gen{
     background-color: var(--Very-Light-Gray);
-    
 }
-.title-s1{
 
-}
- 
-
-.paragraph-1{
-
-}
  
 /*SECOND SECTION*/
 .why-choose{
@@ -107,11 +103,36 @@ nav{
 }
 .element-container{
     display: inline-flex;
+    background-color: blue;
+}
+
+.element{
+    width: 14em;
+    padding-left: 6em;
+}
+.why-choose-title{
+    padding-left: 6em;
+    background-color: coral;
+    font-weight: 700;
+    
+}
+.whychoose-paragraph{
+    padding-left: 6em;
+    background-color: aqua;
+    width: 45em;
 }
 /*THIRD SECTION*/
 .article-section{
     background-color: var(--Very-Light-Gray);
+    margin: 0%;
+    padding: 0%;
     
+}
+
+.article-container{
+    padding-left: 3em;
+    background-color: olive;
+
 }
 .article{
    background-color: yellowgreen;
@@ -134,9 +155,7 @@ nav{
     background-color:var(--Dark-Blue);
     padding-top: 2.5em;
 }
-.footer-logo{
-    color: yellow;
-}
+
 .footer-1{
     margin-left: 10em;
 }
@@ -150,8 +169,7 @@ nav{
     padding-right: .7em;
 }
 .footer-2{
-    background-color:blue;
-    
+    color: var(--White);
 }
 
 .footer-2 a{
@@ -159,14 +177,23 @@ nav{
     list-style: none;
     padding-bottom: .8em;
 }
+.footer-3 {
+    
+    text-align: center;
+    background-color: wheat;
 
+}
 .footer-3 div{
-    float:right;
-    display: list-item;
+    background-color: yellow;
     list-style: none;
-    padding-bottom: .8em;
+    padding-bottom: .8em; 
+    float: right;  
 }
 
+.request{
+  color: var(--Very-Light-Gray);
+  float:right;
+}
 
 .attribution{
     text-align: center;
@@ -179,6 +206,12 @@ body{
 }
 nav{
      width: 100%;
+}
+.menu-res{
+    background-color: fuchsia;
+}
+.menu-responsive a img{
+    display: none;
 }
 .navbar-menu{
     display: none;
